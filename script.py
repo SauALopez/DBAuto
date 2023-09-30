@@ -5,7 +5,7 @@ import numpy as np
 try:
     conn = mariadb.connect(
         user="root",
-        password="password",
+        password="72851100",
         host="localhost",
         port=3306,
         database="zapateria"
@@ -184,4 +184,4 @@ conn.commit()
 ventas_df = pd.read_excel("BD Zapateria.xlsx", sheet_name="Ventas")
 
 for index, row in ventas_df.iterrows():
-    
+    pass
